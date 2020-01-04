@@ -22,4 +22,4 @@ Found something that looks ugly or could be improved? Feel free to create an iss
 
 ## Credits
 
-Some of the colors in this 
+Some of the colors in this theme are from the [dark-gitlab](https://gitlab.com/vednoc/dark-gitlab) theme by vednoc.
