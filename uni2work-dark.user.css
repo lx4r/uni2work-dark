@@ -1,0 +1,57 @@
+/* ==UserStyle==
+@name           Uni2Work Dark
+@namespace      github.com/lx4r/uni2work-dark
+@version        0.1.0
+@description    A dark theme for the Uni2Work system used at LMU Munich.
+@author         lx4r
+==/UserStyle== */
+@-moz-document domain("uni2work.ifi.lmu.de") {
+    body {
+        --color-lmu-green: #04461f;
+        --color-dark: #033b1a;
+        --color-dark-background: #232323;
+        background-color: var(--color-dark-background);
+    }
+    .main__content {
+        background-color: var(--color-dark-background);
+    }
+    :root {
+        --color-font: #e6e6e6;
+        --color-grey-light: #404040;
+        --color-fontsec: #bfbfbf;
+        --color-lightwhite: #333333;
+        --course-bg-color: var(--color-grey-light);
+    }
+    .modal {
+        background-color: var(--color-grey-light);
+    }
+    .navbar__link-wrapper {
+        color: var(--color-font);
+    }
+    .pagenav__list-item {
+        box-shadow: 0 0 2px 0 rgba(255, 255, 255, .6);
+    }
+    .breadcrumbs__container {
+        color: var(--color-font);
+    }
+    .breadcrumbs__link {
+        color: var(--color-fontsec);
+    }
+    .navbar__list-item--active .navbar__link-wrapper {
+        color: var(--color-font);
+    }
+    .navbar__list-item {
+        background-color: var(--color-dark-background);
+    }
+    .navbar__list-item--active {
+        background-color: var(--color-grey-light);
+    }
+    .navbar .navbar__list-item:not(.navbar__list-item--active):not(.navbar__list-item--favorite):hover .navbar__link-wrapper,
+    #lang-checkbox:checked ~ * .navbar__link-wrapper {
+        background-color: var(--color-lightwhite);
+        color: var(--color-fontsec);
+    }
+    .show-hide__toggle:hover {
+        background-color: var(--color-grey-light);
+    }
+}
