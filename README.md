@@ -8,7 +8,7 @@
   </a>
 </p>
 <p align="center">
-  <img src="homepage_screenshot.png" />
+  <img src="homepage_screenshot.png"/>
 </p>
 
 ## Installation

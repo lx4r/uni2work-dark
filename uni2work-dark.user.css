@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Uni2Work Dark
 @namespace      github.com/lx4r/uni2work-dark
-@version        0.1.0
+@version        0.1.1
 @description    A dark theme for the Uni2Work system used at LMU Munich.
 @author         lx4r
 ==/UserStyle== */
@@ -53,5 +53,8 @@
     }
     .show-hide__toggle:hover {
         background-color: var(--color-grey-light);
+    }
+    a.breadcrumbs__link {
+        color: var(--color-fontsec);
     }
 }
